@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        text-align: center;
+        height: 30%;
+        width: 100%;
+        font-size: 20px;
+        background-color: rgb(250, 199, 253);
+        
+
+    }
+    
+    .body{
+        background-color:rgb(133, 201, 253) ;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-rows:auto auto auto ;
+        gap: px;
+        padding: 100px;
+        justify-items: center;
+        background-color:rgb(249, 188, 252) ;
+        
+        
+
+        
+        
+    }
+
+    .grid-container > div {
+        background-color: rgb(250, 199, 253);
+        
+        height: 300px;
+
+    padding: 8px 0;
+    
+}
+    .blur 
+    {filter: blur(4px) grayscale(80%);
+        transform: scale(1);
+        transition: all 2s;
+        
+    }
+    .blur:hover{
+        z-index: 1;
+        
+        filter: none;
+
+    }
+    .row1{
+        border: 10px solid rgb(251, 173, 255);
+    }
+
+    .row2{
+        border: 10px solid rgb(251, 173, 255);
+
+    }
+    .row3{
+        border: 10px solid rgb(251, 173, 255);
+    }
+
+
+
+
+
+</style>
+<header>
+    <div class="header">
+        <h1>Childhood mementos</h1>
+        
+    </div>
+
+</header>
+<body>
+    <div class="grid-container">
+    <div class="row1">
+        <img class="blur" src="32b34e1c-dffd-4c81-9853-b6bd0fab1627.jfif" style="width: 300px;" height="300px" >
+        <img class="blur" src="Traveling Plush Sonic.png" style="width: 300px;" height="300px">
+        <img class="blur" src="My little pony x sanrio collab 2018.jfif" style="width: 300px;" height="300px">
+
+
+    </div>
+
+    <div class="row2">
+        <img class="blur" src="__･ﾟ✧ ┣▇▇▇═─ happy sugar injection!! __･ﾟ.png"style="width: 300px;" height="300px">
+        <img class="blur" src="kirby.jfif" style="width: 300px;" height="300px">
+        <img class="blur" src="bob.png"style="width: 300px;" height="300px">
+
+
+    </div>
+
+    <div class="row3">
+        <img class="blur" src="Hello Kitty Gangsta.jfif"style="width: 300px;" height="300px">
+        <img class="blur" src="Miren.jfif" style="width: 300px;" height="300px">
+        <img class="blur" src="e298aaa0-c4ed-498e-a938-e560a29a5f4e.jfif" style="width: 300px;" height="300px">
+
+    </div>
+
+</div>
+    
+   
+
+</body>
+</html>
